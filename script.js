@@ -24,3 +24,8 @@ document.addEventListener('DOMContentLoaded', function() {
         tabButtons[0].click();
     }
 });
+
+function scrollToMain() {
+    var mainHeading = document.getElementById('modulos');
+    mainHeading.scrollIntoView({ behavior: 'smooth' });
+}
